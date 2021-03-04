@@ -5,7 +5,7 @@
   "main": "./src/index.html",
   "scripts": {
     "dev": "webpack-dev-server --content-base src --hot --inline && cp src/index.html dist/index.html",
-    "build": "webpack -p"
+    "build": "webpack -p && node server.js"
   },
   "author": "Weekend INC",
   "license": "MIT",
